@@ -6,5 +6,5 @@ Implemente los casos de prueba en JUnit necesarios para obtener un **100% de cob
 
 ![Actividad](EvaluarEjercicios/uml/ual.hmis.asignatura.Actividad.png)
 ![Alumno](EvaluarEjercicios/uml/ual.hmis.asignatura.Alumno.png)
-![Ejercicio](Evalua rEjercicios/uml/ual.hmis.asignatura.Ejercicio.png)
+![Ejercicio](EvaluarEjercicios/uml/ual.hmis.asignatura.Ejercicio.png)
 ![Profesor](EvaluarEjercicios/uml/ual.hmis.asignatura.Profesor.png)
