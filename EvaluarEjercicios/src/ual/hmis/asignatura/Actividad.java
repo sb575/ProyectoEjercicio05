@@ -11,6 +11,7 @@ public class Actividad {
 	private double puntuacionTotal;
 
 
+	
 	public String getNombre() {
 		return nombre;
 	}
