@@ -10,7 +10,9 @@ public class Actividad {
 	private boolean apta;
 	private double puntuacionTotal;
 
-
+	public Actividad(String nombre) {
+		this.nombre = nombre;
+	}
 	
 	public String getNombre() {
 		return nombre;
@@ -28,13 +30,13 @@ public class Actividad {
 		this.ejercicios = ejercicios;
 	}
 
-	public boolean isApta() {
-		return apta;
-	}
-
-	public void setApta(boolean apta) {
-		this.apta = apta;
-	}
+//	public boolean isApta() {
+//		return apta;
+//	}
+//
+//	public void setApta(boolean apta) {
+//		this.apta = apta;
+//	}
 
 
 	public double getPuntuacionTotal() {
@@ -46,6 +48,8 @@ public class Actividad {
 	}
 
 	public void agregarEjercicioCalificado(String nombreEjercicio, double puntuacion) {
+		
+		if(ejercicios == null) ejercicios = new ArrayList<Ejercicio>();
 
 		Ejercicio nuevoEjercicio = new Ejercicio();
 
