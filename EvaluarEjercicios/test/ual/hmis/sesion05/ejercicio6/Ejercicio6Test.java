@@ -13,7 +13,7 @@ public class Ejercicio6Test {
 	@CsvSource ({"0, Suspenso","-1, Error en la nota", "11, Error en la nota", "4.9, Suspenso",
 		"5, Bien", "1, Suspenso", "3.4, Suspenso", "5.5 , Bien", "6.9, Bien", "7, Notable", "8.9, Notable",
 		"7.8, Notable", "9, Sobresaliente", "9.9, Sobresaliente", "9.5, Sobresaliente",
-		"10, Matrícula"})
+		"10, MatrÃ­cula"})
 	
 	void testCalificaciones_parametrized(double nota, String expected) {
 		Alumno alumno = new Alumno();

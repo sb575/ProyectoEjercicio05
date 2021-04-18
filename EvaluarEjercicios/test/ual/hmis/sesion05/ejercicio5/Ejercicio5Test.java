@@ -2,6 +2,8 @@ package ual.hmis.sesion05.ejercicio5;
 
 import static org.junit.Assert.assertNotNull;
 
+
+
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collection;
@@ -27,7 +29,7 @@ public class Ejercicio5Test {
 	
 	@ParameterizedTest(name = "{index} => nota de {1} es {2}")
     @MethodSource("actividadProvider")
-	void Ejercicio5Test(Alumno a, Actividad actividad, double puntuacionTotal) {
+	void jercicio5Test(Alumno a, Actividad actividad, double puntuacionTotal) {
 		assertNotNull(actividad);
 		assertNotNull(puntuacionTotal);
 		
@@ -55,7 +57,7 @@ public class Ejercicio5Test {
 		Ingles.agregarEjercicioCalificado("Ejercicio1", 6);
 		Ingles.agregarEjercicioCalificado("Ejercicio2", 7.5);
 		
-		//Esta asignatura, no se incluirá en el boletin del alumno (para cubrir el caso de que no está la actividad 
+		//Esta asignatura, no se incluirï¿½ en el boletin del alumno (para cubrir el caso de que no estï¿½ la actividad 
 		//entre las actividades asignadas al alumno.
 		Actividad Biologia = new Actividad("Biologia");
 		Biologia.agregarEjercicioCalificado("Ejercicio1", 10);

@@ -51,7 +51,7 @@ public class Alumno {
 		else if((nota >= 5 ) && (nota <= 6.9)) 	cadena = "Bien";
 		else if((nota >= 7 ) && (nota <= 8.9)) cadena = "Notable";
 		else if((nota >= 9 ) && (nota <= 9.9)) cadena = "Sobresaliente";
-		else if(nota == 10) cadena = "Matrícula";
+		else if(nota == 10) cadena = "MatrÃ­cula";
 			
 		
 		return cadena;
@@ -62,43 +62,43 @@ public class Alumno {
 		String curso = "";
 		switch (anyoNacimiento){
 			case 2017:
-				curso = "1º Educación Infantil";
+				curso = "1Âº EducaciÃ³n Infantil";
 				break;
 			case 2016:
-				curso = "2º Educación Infantil";
+				curso = "2Âº EducaciÃ³n Infantil";
 				break;
 			case 2015:
-				curso = "3º Educación Infantil";
+				curso = "3Âº EducaciÃ³n Infantil";
 				break;
 			case 2014:
-				curso = "1º Educación Primaria";
+				curso = "1Âº EducaciÃ³n Primaria";
 				break;
 			case 2013:
-				curso = "2º Educación Primaria";
+				curso = "2Âº EducaciÃ³n Primaria";
 				break;
 			case 2012:
-				curso = "3º Educación Primaria";
+				curso = "3Âº EducaciÃ³n Primaria";
 				break;
 			case 2011:
-				curso = "4º Educación Primaria";
+				curso = "4Âº EducaciÃ³n Primaria";
 				break;
 			case 2010:
-				curso = "5º Educación Primaria";
+				curso = "5Âº EducaciÃ³n Primaria";
 				break;
 			case 2009:
-				curso = "6º Educación Primaria";
+				curso = "6Âº EducaciÃ³n Primaria";
 				break;
 			case 2008:
-				curso = "1º Educación Secundaria";
+				curso = "1Âº EducaciÃ³n Secundaria";
 				break;
 			case 2007:
-				curso = "2º Educación Secundaria";
+				curso = "2Âº EducaciÃ³n Secundaria";
 				break;
 			case 2006:
-				curso = "3º Educación Secundaria";
+				curso = "3Âº EducaciÃ³n Secundaria";
 				break;
 			case 2005:
-				curso = "4º Educación Secundaria";
+				curso = "4Âº EducaciÃ³n Secundaria";
 				break;
 			default:
 				curso = "No escolar";
