@@ -153,7 +153,11 @@
 				<artifactId>dependency-check-maven</artifactId>
 				<version>6.1.5</version>
 				<configuration>
-					<skipTestScope>false</skipTestScope>
+					<skipTestScope>true</skipTestScope>
+					<formats>
+						<format>HTML</format>
+						<format>XML</format>
+					</formats>
 				</configuration>
 				<reportSets>
 					<reportSet>
